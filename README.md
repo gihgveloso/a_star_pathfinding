@@ -1,6 +1,7 @@
 # Algoritmo A* para Navegação em Grid
 
 Este projeto implementa o **algoritmo A\*** para busca de caminho em um grid com obstáculos, incluindo um simulador visual em **Pygame**.  
+
 O objetivo é permitir que um robô capture a bola e leve-a até o gol de forma eficiente, equilibrando custo de movimento, rotação e proximidade de obstáculos.
 
 ---
@@ -44,7 +45,7 @@ Controles no painel inferior: **Play/Pause** e **Reset** do cenário.
    ```bash
    git clone https://github.com/SEU_USUARIO/a-star-pathfinding.git
    cd a-star-pathfinding
-   ``
+   ```
 2. Crie um ambiente virtual (opcional):
    ```bash
    python -m venv venv
