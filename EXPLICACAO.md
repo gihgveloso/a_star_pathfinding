@@ -1,10 +1,6 @@
-# EDROM - Desafio de Busca de Caminho com A*
+# Desafio de Busca de Caminho com A*
 
-## NOME DO CANDIDATO: Giovanna Galvão Veloso
-## CURSO DO CANDIDATO: Engenharia de Computação
-## ÁREAS DE INTERESSE: Visão e Behaviour
-
-### Visão Geral do Projeto
+## Visão Geral do Projeto
 
 ### 1. Definição de Custos (`candidato.py`)
 
@@ -108,3 +104,4 @@ A função `encontrar_caminho` implementa o algoritmo A* para encontrar o caminh
             * `heapq.heappush(nos_a_explorar, (custo_f, contador, vizinho))`: Adiciona o `vizinho` à fila de prioridade com seu novo custo `f`.
 
 3.  **Caminho Não Encontrado:** Se o laço terminar e `nos_a_explorar` estiver vazio sem ter alcançado o objetivo, significa que não há caminho possível, e uma lista vazia `[]` é retornada.
+
